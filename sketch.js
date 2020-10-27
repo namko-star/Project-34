@@ -34,7 +34,8 @@ function draw() {
   //add styles here
   fill("white");
   textSize(20);
-  text("Press the up arrow to feed Drago milk!", 10, 20)
+  text("Press the up arrow to feed Drago milk!", 10, 20);
+  text("Food Remaining: " + food, 160, 190);
   drawSprites();
 }
 
